@@ -1,0 +1,145 @@
+#slackProfileCard{
+    background: #fff;
+    display: grid;
+    /* align-items: center; */
+    grid-template-rows: 60% 16% 24%;
+    height: 96%;
+    width: 35%;
+    box-shadow: 10px 10px 25px 0px #3c3c3c;
+}
+#slackDisplayImage{
+    background-image: url("DanielBravenian.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    /* padding: 40px 10px; */
+    width: 28rem;
+    height: 90%;
+}
+
+
+#slackProfileDescription {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 5px;
+    border: #3c3c3c;
+    width: 32.4rem;
+  }
+  
+  #slackProfileDetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5px;
+    background-color: #3c3c3c;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: antiquewhite;
+  }
+  
+  #slackUserNameDisplayArea{
+    font-size: 1rem;
+    background-color: purple;
+    padding-top:22px;
+    padding-bottom: 20px;
+    width: 32.8rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c;
+  }
+  #slackProfileDetails {
+    font-size: 1rem;
+    background-color: purple;
+    border-radius: 5px;
+    padding-top: 3.5px;
+    padding-bottom: 3.2px;
+    width: 32.8rem;
+    margin-left: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c;
+  }
+  #currentUTCTime{
+    background-color: bisque;
+    display: flex;
+    font: 1em sans-serif;
+    width: 28rem;
+    height: 2rem;
+    margin-left: 35px;
+    border-radius: 4.5px;
+    padding-left: 5.5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c;
+  }
+  #UTC-Time {
+    justify-content: center;
+    margin-top: -5px;
+    margin-left: 15px;
+    padding-top: 5px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c;
+  }
+  #myTrack{
+    background-color: paleturquoise;
+    display: flex;
+    font: 1em sans-serif;
+    width: 28rem;
+    height: 2rem;
+    margin-left: 35px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c; 
+  }
+  #slackTrack{
+    justify-content: center;
+    margin-top: -5px;
+    margin-left: 25px;
+    padding-top: 5px;
+  }
+  #slackUserName{
+    background-color: paleturquoise;
+    display: flex;
+    font: 1em sans-serif;
+    width: 32.2rem;
+    height: 4.5rem;
+    padding-left: 8.5px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c;
+  }
+  #currentDayOfTheWeek{
+    background-color: paleturquoise;
+    display: flex;
+    font: 1em sans-serif;
+    width: 32rem;
+    height: 2.4rem;
+    margin-left: 4px;
+    margin-top: 3px;
+    padding-top: 7.5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px 0.5px #3c3c3c; 
+  }
+  #slackDayOfWeekShown{
+    justify-content: center;
+    margin-top: 0.5px;
+    margin-left: 6px;
+    padding-top: 1.8px;
+  }
+  #githubURL{
+    background: #fff;
+    display: grid;
+    /* align-items: center; */
+    height: 50px;
+    width: 150px;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-left: 55px;
+    box-shadow: 5.5px 6px 6px 5.5px orangered;
+  }
